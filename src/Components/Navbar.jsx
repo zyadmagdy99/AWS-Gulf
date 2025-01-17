@@ -53,7 +53,7 @@ function Navbar() {
         </a>
       </div>
 
-      <div className="hidden lg:block  w-full">
+      <div className="hidden md:block  w-full">
         <nav aria-label="Global">
           <ul className={`flex ${Ison?"text-black/50":"text-white"}  w-full justify-around xl:px-16 text-sm`}>
             <li>
@@ -87,7 +87,7 @@ function Navbar() {
         <div className="sm:flex w-full  sm:gap-4 ">
           <div className="hidden sm:flex hover:cursor-pointer flex-row-reverse  justify-around gap-10 items-center">
             <a
-              className={`rounded-md md:w-[80px] me-2 lg:w-[120px] text-white flex justify-center items-center h-[45px] ${Ison?"bg-[#003540]":"bg-[#29a2bb]"}  px-5 py-2.5 text-sm font-medium`}
+              className={`rounded-md md:w-[100px] me-2 lg:w-[120px] text-white flex justify-center items-center h-[45px] ${Ison?"bg-[#003540]":"bg-[#29a2bb]"}  px-5 py-2.5 text-sm font-medium`}
               href="/"
             >
              اتصل بنا           </a> 
