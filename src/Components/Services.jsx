@@ -59,7 +59,7 @@ function Services() {
         <Slider {...settings}>
       <div className=''>
         <div className='flex flex-col justify-center  gap-4 items-center border md:w-[25rem] h-[25rem] hover:cursor-pointer hover:bg-[#eaf5f6] hover:scale-105 transition-transform duration-300'>
-          <img className='md:w-[16rem] w-[14rem] pt-5' src="/Service11.png" alt="service1" />
+          <img className='md:w-[16rem] w-[14rem] pt-5' src="/service11.png" alt="service2" />
           <h3  className={`text-xl ${Ison?"text-[#003540]":"text-[#35a0b6]"}`}>تطوير المواقع الإلكترونية
           </h3>
           <p className={`xl:px-8 lg:px-24 px-5 md:px-12 ${Ison?"text-black/50":"text-white"}`}>الاعتماد على حلولنا الرقمية يعني الاستفادة من خبرتنا لتحويل أفكارك إلى واقع رقمي جذاب يحقق النجاح.</p>
@@ -85,7 +85,7 @@ function Services() {
         </div>      </div>
       <div className=''>
       <div className='hover:cursor-pointer hover:bg-[#eaf5f6] hover:scale-105 transition-transform duration-300 flex flex-col justify-center gap-4 items-center h-[25rem] md:w-[25rem] border'>
-          <img className='w-[16rem] pt-5' src="/service2.png" alt="service1" />
+          <img className='w-[16rem] pt-5' src="/service2.png" alt="service3" />
           <h3 className={`text-xl ${Ison?"text-[#003540]":"text-[#35a0b6]"}`}>تطوير تطبيقات الجوال
           </h3>
           <p className={`xl:px-8 lg:px-24 px-5 md:px-12 ${Ison?"text-black/50":"text-white"}`}>نقدم تطبيقات موبايل مبتكرة تتجاوز التوقعات، معززة حضورك الرقمي بالكفاءة والتأثير.
